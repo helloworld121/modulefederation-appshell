@@ -1,8 +1,7 @@
 {
   "name": "modulefederation-appshell",
-  "version": "1.0.0",
   "description": "wrapper for microfrontend application",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/helloworld121/modulefederation-appshell.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/helloworld121/modulefederation-appshell/issues"
-  },
-  "homepage": "https://github.com/helloworld121/modulefederation-appshell#readme"
+  "devDependencies": {
+    "concurrently": "^6.0.2"
+  }
 }
